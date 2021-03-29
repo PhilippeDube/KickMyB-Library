@@ -1,7 +1,6 @@
 package org.kickmyb.transfer;
 
-public class SignupRequest {
-
-    public String username;
-    public String password;
+// requête de création de compte, ce sont les mêmes champs qu'une connection en plus du courriel
+public class SignupRequest extends SigninRequest {
+    public String email;
 }

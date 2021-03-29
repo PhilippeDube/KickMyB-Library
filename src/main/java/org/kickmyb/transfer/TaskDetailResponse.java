@@ -5,15 +5,13 @@ import java.util.List;
 
 public class TaskDetailResponse {
     public Long id;
-
-    // données
+    public Long idParent;
     public String name;
-    public Date deadLine;
+    public String description;
+    public int progress;
 
-    // Liste de tous les événements de progression pour affichage dans l'ordre chrono inverse
-    public List<ProgressEvent> events;
-
-    // valeurs calculées sur le serveur à afficher au détail
-    public int percentageDone;
-    public int percentageTimeSpent;
+    //Dates à utiliser pour l'affichage
+    public Date deadline;
+    public Date creationDate;
+    public Date finishDate;
 }
