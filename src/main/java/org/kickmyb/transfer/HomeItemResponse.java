@@ -1,6 +1,7 @@
 package org.kickmyb.transfer;
 
 
+import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -16,7 +17,7 @@ public class HomeItemResponse {
     public int progress;
 
     //Dates à utiliser pour l'affichage
-    public Date deadline;
-    public Date creationDate;
-    public Date finishDate;
+    public LocalDateTime deadline;
+    public LocalDateTime creationDate;
+    public LocalDateTime finishDate;
 }

@@ -1,5 +1,6 @@
 package org.kickmyb.transfer;
 
+import java.time.LocalDateTime;
 import java.util.Date;
 
 public class TaskProgressRequest {
@@ -10,5 +11,5 @@ public class TaskProgressRequest {
     public int progress;
 
     //Dates à utiliser pour l'affichage
-    public Date deadline;
+    public LocalDateTime deadline;
 }
