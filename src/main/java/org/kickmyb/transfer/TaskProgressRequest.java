@@ -11,5 +11,5 @@ public class TaskProgressRequest {
     public int progress;
 
     //Dates à utiliser pour l'affichage
-    public LocalDateTime deadline;
+    public String deadline;
 }

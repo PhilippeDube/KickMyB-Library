@@ -11,5 +11,5 @@ public class AddTaskRequest {
     // La description, non vide doit être unique
     public String description;
     // La date limite pour la tâche
-    public LocalDateTime deadLine;
+    public String deadLine;
 }
