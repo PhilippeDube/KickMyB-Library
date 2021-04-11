@@ -17,7 +17,7 @@ public class HomeItemResponse {
     public int progress;
 
     //Dates à utiliser pour l'affichage
-    public LocalDateTime deadline;
-    public LocalDateTime creationDate;
-    public LocalDateTime finishDate;
+    public String deadline;
+    public String creationDate;
+    public String finishDate;
 }
